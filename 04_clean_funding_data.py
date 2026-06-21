@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 
 DB_NAME = "who_regional_health_surveillance_db"
 DB_USER = "postgres"
-DB_PASSWORD = "Coachez@2026"  # CHANGE THIS!
+DB_PASSWORD = "Coachez@2026" 
 DB_HOST = "localhost"
 DB_PORT = "5432"
 

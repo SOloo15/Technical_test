@@ -44,7 +44,16 @@ Create a database called "who_regional_health_surveillance_db" using pgAdmin 4
 In the Query Tool run "who_regional_health_surveillance_db_sql.sql" OR restore using "who_regional_health_surveillance_db_backup.backup"
 ```
 ### Data Loading
+
+Remember to change password in the python files to reflect your postgresql passowrd before running any python script
+
 ```bash
+DB_NAME = "who_regional_health_surveillance_db"
+DB_USER = "postgres"
+DB_PASSWORD = "password" # Change this
+DB_HOST = "localhost"
+DB_PORT = "5432"
+
 # 1. Place your CSV files in the data/ directory
 # Required files: countries.csv, population.csv, disease_surveillance.csv,
 # outbreaks.csv, laboratory_capacity.csv, reporting_metrics.csv,
