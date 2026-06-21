@@ -67,3 +67,9 @@ python 05_create_vulnerability_table.py
 streamlit run 06_dashboard.py
 ```
 The dashboard will open at http://localhost:8501
+
+### Dashboard Preview
+
+![Dashboard Screenshot](images/dashboard.png)
+
+*Figure 1: Main dashboard view*
